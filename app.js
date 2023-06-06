@@ -44,7 +44,7 @@ app.use(cors({
 app.use(passport.authenticate("session"));
 app.use(passport.initialize());
 app.use(passport.session());
-app.enable("trust proxy");
+// app.enable("trust proxy");
 
 
 connectPassport();
